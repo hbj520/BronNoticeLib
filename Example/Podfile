@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BronNoticeLib_Example' do
+  pod 'BronNoticeLib', :path => '../'
+
+  target 'BronNoticeLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
